@@ -1,0 +1,190 @@
+/* team MOR component design stylesheet */
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: grey;
+}
+
+/*Main container*/
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 8px;
+}
+
+/*All grid itemsr*/
+.grid-item{
+  background-color: white;
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+/*First grid item*/
+#color-palette{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 8px;
+}
+
+#color-palette #primary-bgcolor{
+  background-color: white;
+  padding: 16px;
+  border: dotted black;
+  border-width: thin;
+}
+
+#color-palette #secondary-bgcolor{
+  background-color: #3d61ff; /*secondary background color */
+  padding: 16px;
+  color: white;
+}
+
+#color-palette #navbar-color{
+  background-color: #6b6b75; /*navbar color */
+  padding: 16px;
+  color: white;
+}
+
+#color-palette #supplementary-color{
+  background-color: #ff8838; /*supplementary color */
+  padding: 16px;
+  color: white;
+}
+
+/*second grid item*/
+
+/*third grid item*/
+
+/*fourth grid item*/
+
+/*fifth grid item*/
+/*buttons*/
+#buttons .btn-menu{
+  box-sizing: border-box;
+	padding: 8px 8px;
+	font-size: 26px;
+  border: solid #6b6b75; /*navbar color */
+	text-decoration: none;
+	margin: auto;
+	background-color: #6b6b75; /*navbar color */
+  color: white;
+}
+
+#buttons .btn-menu:hover{
+  box-sizing: border-box;
+	padding: 8px 8px;
+	font-size: 26px;
+  border: solid white; /*primary background color */
+	text-decoration: none;
+	margin: auto;
+	background-color: white;
+  color: #6b6b75; /*navbar color */
+  transition: smooth, 200ms;
+  cursor: pointer;
+}
+
+#buttons .btn-primary{
+  box-sizing: border-box;
+	padding: 8px 8px;
+	font-size: 26px;
+  border: solid #ff8838; /*supplementary color */
+	text-decoration: none;
+	margin: auto;
+	background-color: #ff8838; /*supplementary color */
+  color: white;
+}
+
+#buttons .btn-primary:hover{
+  box-sizing: border-box;
+	padding: 8px 8px;
+	font-size: 26px;
+  border: solid white; /*primary background color */
+	text-decoration: none;
+	margin: auto;
+	background-color: white;
+  color: #6b6b75; /*navbar color */
+  transition: smooth, 200ms;
+  cursor: pointer;
+}
+
+#buttons .btn-secondary{
+  box-sizing: border-box;
+	padding: 8px 8px;
+	font-size: 26px;
+  border: solid #6b6b75; /*navbar color */
+	text-decoration: none;
+	margin: auto;
+	background-color: white; /*primary background color */
+  color: #6b6b75; /*navbar color */
+}
+
+#buttons .btn-secondary:hover{
+  box-sizing: border-box;
+	padding: 8px 8px;
+	font-size: 26px;
+  border: solid #6b6b75; /*navbar color */
+	text-decoration: none;
+	margin: auto;
+	background-color: #6b6b75; /*navbar color */
+  color: white; /*primary background color */
+  transition: smooth, 200ms;
+  cursor: pointer;
+}
+
+#buttons .btn-link{
+  box-sizing: border-box;
+	padding: 8px 8px;
+	font-size: 16px;
+  border: none;
+  font-weight: bold;
+	margin: auto;
+  background-color: white; /*primary background color */
+  color: #ff8838; /*supplementary color */
+}
+
+#buttons .btn-link:hover{
+  box-sizing: border-box;
+	padding: 8px 8px;
+	font-size: 16px;
+  border: none;
+	text-decoration: underline;
+	margin: auto;
+	background-color: white;
+  color: #6b6b75; /*navbar color */
+  transition: smooth, 200ms;
+  cursor: pointer;
+}
+
+/*sixth grid item*/
+/*input field*/
+input {
+	width: 100%;
+	box-sizing: border-box;
+	border: solid #6b6b75; /*navbar color */
+  border-width: thin;
+	border-radius: 4px;
+	padding: 12px 20px;
+	margin: 8px 0;
+}
+/*input field selected */
+input:focus {
+  background-color: #ffece3
+}
+
+/*select fields*/
+select {
+	background-color: white;
+  width: 100%;
+	box-sizing: border-box;
+  border: border: solid #6b6b75; /*navbar color */
+  border-width: thin;
+  border-radius: 4px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	cursor: pointer;
+}
