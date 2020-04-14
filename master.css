@@ -92,10 +92,10 @@ body{
   box-sizing: border-box;
 	padding: 8px 8px;
 	font-size: 26px;
-  border: solid #ff8838; /*supplementary color */
+  border: solid #b31e14; /*supplementary color */
 	text-decoration: none;
 	margin: auto;
-	background-color: #ff8838; /*supplementary color */
+	background-color: #b31e14; /*supplementary color */
   color: white;
 }
 
@@ -144,7 +144,7 @@ body{
   font-weight: bold;
 	margin: auto;
   background-color: white; /*primary background color */
-  color: #ff8838; /*supplementary color */
+  color: #b31e14; /*supplementary color */
 }
 
 #buttons .btn-link:hover{
