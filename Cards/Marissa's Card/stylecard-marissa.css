@@ -1,0 +1,80 @@
+
+body{
+ font-family: sans-serif;
+ background-color: grey;
+}
+
+.main{
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px;
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+ }
+
+.title{
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+ }
+
+ h1{
+   font-size: 60px;
+   font-family: sans-serif;
+   color: #A0CFEB;
+   text-align: center;
+ }
+
+ h2{
+   font-size: 30px;
+   font-weight: bold;
+   color: #A71930;
+   font-family: sans-serif;
+ }
+
+ h3{
+   color: #72CE9B;
+   font-size: 22px;
+   font-family: sans-serif;
+ }
+
+.description{
+  padding: 3px;
+  text-align: center;
+  padding-top: 10px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: white;
+}
+
+button{
+	padding: 10px;
+  border: 1 px solid #ff8838; /*supplementary color */
+	text-decoration: none;
+	margin-bottom: 10px;
+	background-color: #ff8838; /*supplementary color */
+  color: white
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+button:hover{
+	font-size: 26px;
+  border: solid white; /*primary background color */
+	text-decoration: none;
+	margin: auto;
+	background-color: white;
+  color: #6b6b75; /*navbar color */
+  transition: smooth, 200ms;
+  cursor: pointer;
+}
