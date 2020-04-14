@@ -189,3 +189,11 @@ select {
 	margin: 8px 0;
 	cursor: pointer;
 }
+
+/* paragraph font */
+p {
+	font-family: Perpetua, serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+}
