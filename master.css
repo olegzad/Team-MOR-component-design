@@ -1,4 +1,5 @@
-/* team MOR component design stylesheet */
+/* Team MOR component design stylesheet */
+/* Marissa Carter, Oleg Zadoyanchuk, Rhys Boyar */
 
 html{
   scroll-behavior: smooth;
@@ -16,7 +17,7 @@ body{
   grid-gap: 8px;
 }
 
-/*All grid itemsr*/
+/*All grid items*/
 .grid-item{
   background-color: white;
   box-sizing: border-box;
@@ -32,26 +33,26 @@ body{
 }
 
 #color-palette #primary-bgcolor{
-  background-color: white;
+  background-color: white; /*primary background colour */
   padding: 16px;
   border: dotted black;
   border-width: thin;
 }
 
 #color-palette #secondary-bgcolor{
-  background-color: #3d61ff; /*secondary background color */
+  background-color: #3d61ff; /*secondary background colour */
   padding: 16px;
   color: white;
 }
 
 #color-palette #navbar-color{
-  background-color: #6b6b75; /*navbar color */
+  background-color: #6b6b75; /*navbar colour */
   padding: 16px;
   color: white;
 }
 
 #color-palette #supplementary-color{
-  background-color: #b31e14; /*supplementary color */
+  background-color: #b31e14; /*supplementary colour */
   padding: 16px;
   color: white;
 }
