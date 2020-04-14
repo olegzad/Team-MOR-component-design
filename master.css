@@ -58,10 +58,25 @@ body{
 }
 
 /*second grid item*/
-
+h1{
+  font-size: 60px;
+  font-family: sans-serif;
+  color: #A0CFEB;
+  text-align: center;
+}
 /*third grid item*/
-
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #A71930;
+  font-family: sans-serif;
+}
 /*fourth grid item*/
+h3{
+  color: #72CE9B;
+  font-size: 22px;
+  font-family: sans-serif;
+}
 
 /*fifth grid item*/
 /*buttons*/
@@ -74,6 +89,7 @@ body{
 	margin: auto;
 	background-color: #6b6b75; /*navbar color */
   color: white;
+	border-radius: 5px;
 }
 
 #buttons .btn-menu:hover{
@@ -98,6 +114,7 @@ body{
 	margin: auto;
 	background-color: #b31e14; /*supplementary color */
   color: white;
+	border-radius: 5px;
 }
 
 #buttons .btn-primary:hover{
@@ -122,6 +139,7 @@ body{
 	margin: auto;
 	background-color: white; /*primary background color */
   color: #6b6b75; /*navbar color */
+	border-radius: 5px;
 }
 
 #buttons .btn-secondary:hover{
